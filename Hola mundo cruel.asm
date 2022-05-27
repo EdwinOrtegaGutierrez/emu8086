@@ -1,0 +1,65 @@
+;HOLA MUNDO CRUEL :(
+
+MOV AH, 0EH  
+
+MOV AL, 00   ;ESPACIO
+INT 10H
+        
+MOV AL, 72   ;H 
+INT 10H
+
+MOV AL, 111  ;o 
+INT 10H
+
+MOV AL, 108  ;l 
+INT 10H
+
+MOV AL, 97   ;a 
+INT 10H
+
+MOV AL, 00   ;ESPACIO 
+INT 10H
+
+MOV AL, 109  ;m 
+INT 10H       
+
+MOV AL, 117  ;u
+INT 10H        
+
+MOV AL, 110  ;n
+INT 10H        
+
+MOV AL, 100  ;d
+INT 10H        
+
+MOV AL, 111  ;o
+INT 10H   
+
+MOV AL, 00   ;ESPACIO
+INT 10H
+
+MOV AL, 99   ;c
+INT 10H  
+
+MOV AL, 114  ;r
+INT 10H
+
+MOV AL, 117  ;u
+INT 10H
+
+MOV AL, 101  ;e
+INT 10H 
+
+MOV AL, 108  ;l
+INT 10H 
+
+MOV AL, 00   ;ESPACIO
+INT 10H  
+
+MOV AL, 58   ;:
+INT 10H
+MOV AL, 40   ;(
+INT 10H
+
+
+RET
